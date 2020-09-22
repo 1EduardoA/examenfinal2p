@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinea App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
+			<ul>
+				<li>
+				  <a href="productos.html" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">theaters</i>
+						</div>
+						<div class="item-inner">
+							Cartelera
+				  </div>
+
+					</a>
+				</li>
+				
+				<li>
+					<a href="perfil.html" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">account_circle</i>
+						</div>
+						<div class="item-inner">
+							Perfil
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/dulcería/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">cake</i>
+						</div>
+						<div class="item-inner">
+							Dulcería
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/promociones/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_offer</i>
+						</div>
+						<div class="item-inner">
+							Promociones
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/Mispelículas/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">card_giftcard</i>
+						</div>
+						<div class="item-inner">
+							Mis Películas
+						</div>
+					</a>
+				</li>
+		</div>
+     
+     	
+     </section>
+     
+     <section class="panel panel-right panel-cover">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">CINEA</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+				
+				<h3 class="block-title">¡Hola, JF Ramos! Te compartimos algunas películas que te podrían interesar.&nbsp;&nbsp;</h3>
+	  			
+		  		<div class="block">
+		  			<h2 class="block-title-medium">Cartelera &nbsp;</h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			
+        			<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+									<h2>El Padrino (The GodFather)&nbsp;&nbsp;</h2>
+       							  <h4>175 Minutos</h4>
+        							<p>(1972)&nbsp;</p>
+
+        							<span class="precio">L. 200.00</span>
+        						</article>					
+        						<article class="col-40">
+        							<img src="img/Godfather..jpg" class="img-fluid" alt="The GodFather">
+        						</article>			
+        					</div>        					        					
+        				</div>
+						
+        			</article>
+        			
+        			
+        			<div class="row categoria-enlace">
+        				<article class="col">
+        					<h class="block-title no-margin">Top 5</h2>
+        				</article>
+        			<article class="col text-align-right">
+        					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/rf9.jpg" class="img-fluid" alt="Fast & Furios 9">
+											<h2>Fast & Furios 9"</h2>
+											<h3>3h 8m</h3>
+											<h3>2020</h3>
+										
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+										
+
+											<a href="productos.html" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Scarface.jpg" class="img-fluid" alt="Scarface">
+											<h2>Scarface</h2>
+											<h3>2h 50m</h3>
+											<h3>1983</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+					
+					<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/creed.jpg" class="img-fluid" alt="Asasins Creed">
+											<h2>Asasins Creed</h2>
+											<h3>3h 8m</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/6.jpg" class="img-fluid" alt="6 underground">
+											<h2>6 underground</h2>
+											<h3>2h 30m</h3>
+											<h3>2019</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+							</div>
+						</div>
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Mad Max.jpg" class="img-fluid" alt="Mad Max">
+											<h2>Mad Max</h2>
+											<h3>3h 30m</h3>
+											<h3>2014</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+							
+							</div>
+						</div>
+        			</section><!-- home-productos-->
+		  
+		  
+		   <section id="Productos1">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/creed.jpg" class="img-fluid" alt="Asasins Creed">
+											<h2>Asasins Creed</h2>
+											<h3>3h 8m</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/6.jpg" class="img-fluid" alt="6 underground">
+											<h2>6 underground</h2>
+											<h3>2h 30m</h3>
+											<h3>2019</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+							</div>
+						</div>
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Mad Max.jpg" class="img-fluid" alt="Mad Max">
+											<h2>Mad Max</h2>
+											<h3>3h 30m</h3>
+											<h3>2014</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 200.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+							
+							</div>
+						</div>
+        			</section><!-- home-productos-->
+		  
+		  
+		  
+		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="Yourprofile.html" class="tab-link">
+			  <i class="material-icons">local_cafe</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+			  
+		    <a href="productos.html" class="tab-link">
+			  <i class="material-icons">theaters</i>
+			  <span class="tabbar-label">Cartelera</span>
+			</a>
+		  </div>
+		</div>
+</div><!-- view -->
+		
+    </section>
+		
+		 
+
+		  
+		
+		
+		
+	
+<script src="js/framework7.bundle.min.js"></script>s
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
